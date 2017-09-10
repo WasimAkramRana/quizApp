@@ -37,8 +37,7 @@ npm Install
 }
 ```
 
-- **Step-4:**
- - run the application with following command
+- **Step-4:** run the application with following command
  ```
  node app
  ```
