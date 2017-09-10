@@ -2,7 +2,6 @@ var express                   = require('express');
 var app                       = express();
 var config                    = require('../configs/index.json');
 var async                     = require('async');
-var userModel                 = require('../models/user');
 var questionSchema            = require('../models/qustionModel');
 var questionModel             = new questionSchema();
 
