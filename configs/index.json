@@ -1,0 +1,5 @@
+{
+  "appName"             : "Alpha",
+  "app_port"            : 3000,
+  "dbURI"               : "mongodb://10.222.111.150:27017/alpha"
+}
