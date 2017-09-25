@@ -17,6 +17,10 @@ app.use(function(req, res, next) {
     next();
 });
 
+app.get('/status', function(req, res, next){
+   res.json("application successfully runing")
+})
+
 app.post('/v1/users/register', function(req, res) {
 	userModel.findOne({email:req.body.email}, function(err, response) {
     if(!response) {
